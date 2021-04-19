@@ -1,1 +1,281 @@
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="sudoku.css">
+    <script src="sudoku.js"></script>
+    <title>Sudoku</title>
+    <style media="screen">
+      img {
+        position: absolute;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row1">
+      <div class="column1">
+        <input type="text" id = "11" >
+      </div>
+      <div class="column2">
+        <input type="text" id = "12">
+      </div>
+      <div class="column3">
+        <input type="text" id = "13" >
+      </div>
+      <div class="column4">
+        <input type="text" id = "14" >
+      </div>
+      <div class="column5">
+        <input type="text" id = "15">
+      </div>
+      <div class="column6">
+        <input type="text" id = "16">
+      </div>
+      <div class="column7">
+        <input type="text" id = "17">
+      </div>
+      <div class="column8">
+        <input type="text" id = "18" >
+      </div>
+      <div class="column9">
+        <input type="text" id = "19">
+      </div>
+    </div>
+    <div class="row2">
+      <div class="column1">
+        <input type="text" id = "21">
+      </div>
+      <div class="column2">
+        <input type="text" id = "22">
+      </div>
+      <div class="column3">
+        <input type="text" id = "23">
+      </div>
+      <div class="column4">
+        <input type="text" id = "24" >
+      </div>
+      <div class="column5">
+        <input type="text" id = "25">
+      </div>
+      <div class="column6">
+        <input type="text" id = "26">
+      </div>
+      <div class="column7">
+        <input type="text" id = "27">
+      </div>
+      <div class="column8">
+        <input type="text" id = "28" >
+      </div>
+      <div class="column9">
+        <input type="text" id = "29">
+      </div>
+    </div>
+    <div class="row3">
+      <div class="column1">
+        <input type="text" id = "31">
+      </div>
+      <div class="column2">
+        <input type="text" id = "32" >
+      </div>
+      <div class="column3">
+        <input type="text" id = "33" >
+      </div>
+      <div class="column4">
+        <input type="text" id = "34" >
+      </div>
+      <div class="column5">
+        <input type="text" id = "35">
+      </div>
+      <div class="column6">
+        <input type="text" id = "36" >
+      </div>
+      <div class="column7">
+        <input type="text" id = "37" >
+      </div>
+      <div class="column8">
+        <input type="text" id = "38">
+      </div>
+      <div class="column9">
+        <input type="text" id = "39">
+      </div>
+    </div>
+    <div class="row4">
+      <div class="column1">
+        <input type="text" id = "41">
+      </div>
+      <div class="column2">
+        <input type="text" id = "42" >
+      </div>
+      <div class="column3">
+        <input type="text" id = "43">
+      </div>
+      <div class="column4">
+        <input type="text" id = "44">
+      </div>
+      <div class="column5">
+        <input type="text" id = "45">
+      </div>
+      <div class="column6">
+        <input type="text" id = "46">
+      </div>
+      <div class="column7">
+        <input type="text" id = "47">
+      </div>
+      <div class="column8">
+        <input type="text" id = "48">
+      </div>
+      <div class="column9">
+        <input type="text" id = "49">
+      </div>
+    </div>
+    <div class="row5">
+      <div class="column1">
+        <input type="text" id = "51">
+      </div>
+      <div class="column2">
+        <input type="text" id = "52">
+      </div>
+      <div class="column3">
+        <input type="text" id = "53" >
+      </div>
+      <div class="column4">
+        <input type="text" id = "54">
+      </div>
+      <div class="column5">
+        <input type="text" id = "55">
+      </div>
+      <div class="column6">
+        <input type="text" id = "56">
+      </div>
+      <div class="column7">
+        <input type="text" id = "57">
+      </div>
+      <div class="column8">
+        <input type="text" id = "58" >
+      </div>
+      <div class="column9">
+        <input type="text" id = "59" >
+      </div>
+    </div>
+    <div class="row6">
+      <div class="column1">
+        <input type="text" id = "61">
+      </div>
+      <div class="column2">
+        <input type="text" id = "62">
+      </div>
+      <div class="column3">
+        <input type="text" id = "63">
+      </div>
+      <div class="column4">
+        <input type="text" id = "64">
+      </div>
+      <div class="column5">
+        <input type="text" id = "65">
+      </div>
+      <div class="column6">
+        <input type="text" id = "66">
+      </div>
+      <div class="column7">
+        <input type="text" id = "67">
+      </div>
+      <div class="column8">
+        <input type="text" id = "68">
+      </div>
+      <div class="column9">
+        <input type="text" id = "69">
+      </div>
+    </div>
+    <div class="row7">
+      <div class="column1">
+        <input type="text" id = "71">
+      </div>
+      <div class="column2">
+        <input type="text" id = "72">
+      </div>
+      <div class="column3">
+        <input type="text" id = "73" >
+      </div>
+      <div class="column4">
+        <input type="text" id = "74" >
+      </div>
+      <div class="column5">
+        <input type="text" id = "75">
+      </div>
+      <div class="column6">
+        <input type="text" id = "76" >
+      </div>
+      <div class="column7">
+        <input type="text" id = "77" >
+      </div>
+      <div class="column8">
+        <input type="text" id = "78">
+      </div>
+      <div class="column9">
+        <input type="text" id = "79" >
+      </div>
+    </div>
+    <div class="row8">
+      <div class="column1">
+        <input type="text" id = "81" >
+      </div>
+      <div class="column2">
+        <input type="text" id = "82">
+      </div>
+      <div class="column3">
+        <input type="text" id = "83">
+      </div>
+      <div class="column4">
+        <input type="text" id = "84">
+      </div>
+      <div class="column5">
+        <input type="text" id = "85">
+      </div>
+      <div class="column6">
+        <input type="text" id = "86" >
+      </div>
+      <div class="column7">
+        <input type="text" id = "87">
+      </div>
+      <div class="column8">
+        <input type="text" id = "88" >
+      </div>
+      <div class="column9">
+        <input type="text" id = "89" >
+      </div>
+    </div>
+    <div class="row9">
+      <div class="column1">
+        <input type="text" id = "91">
+      </div>
+      <div class="column2">
+        <input type="text" id = "92">
+      </div>
+      <div class="column3">
+        <input type="text" id = "93">
+      </div>
+      <div class="column4">
+        <input type="text" id = "94">
+      </div>
+      <div class="column5">
+        <input type="text" id = "95">
+      </div>
+      <div class="column6">
+        <input type="text" id = "96" >
+      </div>
+      <div class="column7">
+        <input type="text" id = "97" >
+      </div>
+      <div class="column8">
+        <input type="text" id = "98">
+      </div>
+      <div class="column9">
+        <input type="text" id = "99">
+      </div>
+    </div>
+    <input type="button" value="Submit" onClick="submit()">
+    <img src="sudoku.png" alt="exampleSudoku">
+    <p id = "win"></p>
+  </body>
+</html>

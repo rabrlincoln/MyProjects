@@ -1,0 +1,31 @@
+.column1, .column2, .column3, .column4, .column5, .column6, .column7, .column8, .column9 {
+  height: 30px;
+  width: 30px;
+  border-style: solid;
+  border-width: 0.5px;
+  float:left
+}
+div input {
+  width: 20px;
+  height: 20px;
+}
+.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9{
+  clear: both;
+  height: 30px;
+}
+.column1, .column4, .column7 {
+  border-left-width: 2px;
+  border-left-style: solid;
+}
+.column9 {
+  border-right-width: 2px;
+  border-right-style: solid;
+}
+.row1 div, .row4 div, .row7 div {
+  border-top-width: 2px;
+  border-top-style: solid;
+}
+.row9 div {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
